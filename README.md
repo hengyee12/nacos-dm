@@ -4,12 +4,19 @@
 需要重新编译nacos使用
 
 1  nacos项目主pom文件增加达梦jdbc驱动包
+
 ![img.png](img.png)
+
 2 nacos-config 模块下的ExternalDataSourceProperties.java类新增jdbcDriverName字段
+
 ![img_1.png](img_1.png)
+
 ![img_2.png](img_2.png)
+
 3 修改console模块下的application.properties
+
 ![img_3.png](img_3.png)
+
 
 构建项目
 进入源代码目录执行
